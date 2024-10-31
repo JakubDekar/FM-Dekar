@@ -21,4 +21,8 @@ class Zvire{
     public string RasaKocky(){
         return rasa;
     }
+    
+    public static Zvire pes(){
+        return new Zvire("Haf", "Pes");
+    }
 }
