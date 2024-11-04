@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\JakubDekař\\.nuget\\packages\\": {}
+    "C:\\Users\\Jakub\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JakubDekař\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Jakub\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\JakubDekař\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\JakubDekař\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JakubDekař\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\Jakub\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Jakub\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jakub\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JakubDekař\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jakub\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
