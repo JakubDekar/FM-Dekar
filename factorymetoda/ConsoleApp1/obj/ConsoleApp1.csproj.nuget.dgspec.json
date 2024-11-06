@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jakub\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Jakub\\Desktop\\FM-Dekař\\FM-Dekar\\FM-Dekar\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jakub\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Jakub\\Desktop\\FM-Dekař\\FM-Dekar\\FM-Dekar\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jakub\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Jakub\\Desktop\\FM-Dekař\\FM-Dekar\\FM-Dekar\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Jakub\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\Jakub\\Desktop\\FM-Dekař\\FM-Dekar\\FM-Dekar\\factorymetoda\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Jakub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jakub\\Documents\\GitHub\\factorymetod\\factorymetoda\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Jakub\\Desktop\\FM-Dekař\\FM-Dekar\\FM-Dekar\\factorymetoda\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jakub\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -17,6 +17,8 @@ public class Program
         Pes pes = VytvorZvire.VytvorPsa(4);
         pes.VydatZvuk();
 
+
+
         Labrador labrador = VytvorZvire.VytvorLabradora(5);
         labrador.VydatZvuk();
 
@@ -40,5 +42,6 @@ public class Program
 
         Suffolk suffolk = new Suffolk(3);
         suffolk.VydatZvuk();
+        //atd
     }
 }

@@ -1,6 +1,6 @@
 ﻿
 using System;
-
+// Základní třída pro zvíře
 public class Zvire
 {
     public string Druh { get;set; }
@@ -8,15 +8,15 @@ public class Zvire
     public int Vek { get;set; }
     public string Zvuk { get; set; }
 
-    public Zvire() {}
+    public Zvire() {}// Prázdný konstruktor
 
-    
+    //metoda
     public void VydatZvuk()
     {
         Console.WriteLine($"{Druh} ({Plemeno}) vydává zvuk: {Zvuk}");
     }
 }
-
+//třídy pro jednotlive zvířata
 
 public class Kocka : Zvire
 {
@@ -51,7 +51,6 @@ public class SijamskaKocka : Zvire
     }
 }
 
-
 public class Pes : Zvire
 {
     public Pes(int vek)
@@ -74,7 +73,7 @@ public class Labrador : Zvire
     }
 }
 
- public class NemeckyOvciak : Zvire
+public class NemeckyOvciak : Zvire
 {
     public NemeckyOvciak(int vek)
     {
@@ -84,7 +83,6 @@ public class Labrador : Zvire
         Plemeno = "Německý ovčák";
     }
 }
-
 
 public class Krava : Zvire
 {
@@ -119,7 +117,6 @@ public class JerseyskaKrava : Zvire
     }
 }
 
-
 public class Ovce : Zvire
 {
     public Ovce(int vek)
@@ -153,7 +150,139 @@ public class Suffolk : Zvire
     }
 }
 
- public class VytvorZvire
+public class Kralik : Zvire
+{
+    public Kralik(int vek)
+    {
+        Druh = "Králík";
+        Vek = vek;
+        Zvuk = "Chrocht";
+        Plemeno = "Obecný";
+    }
+}
+
+public class AngorskyKralik : Zvire
+{
+    public AngorskyKralik(int vek)
+    {
+        Druh = "Králík";
+        Vek = vek;
+        Zvuk = "Chrocht";
+        Plemeno = "Angorský";
+    }
+}
+
+public class Kun : Zvire
+{
+    public Kun(int vek)
+    {
+        Druh = "Kůň";
+        Vek = vek;
+        Zvuk = "Hřebec";
+        Plemeno = "Obecný";
+    }
+}
+
+public class ArabskyKun : Zvire
+{
+    public ArabskyKun(int vek)
+    {
+        Druh = "Kůň";
+        Vek = vek;
+        Zvuk = "Hřebec";
+        Plemeno = "Arabský";
+    }
+}
+
+public class Slepice : Zvire
+{
+    public Slepice(int vek)
+    {
+        Druh = "Slepice";
+        Vek = vek;
+        Zvuk = "Kukuryku";
+        Plemeno = "Obecná";
+    }
+}
+
+public class PlymutSrock : Zvire
+{
+    public PlymutSrock(int vek)
+    {
+        Druh = "Slepice";
+        Vek = vek;
+        Zvuk = "Kukuryku";
+        Plemeno = "Plymut Srock";
+    }
+}
+
+public class Prase : Zvire
+{
+    public Prase(int vek)
+    {
+        Druh = "Prase";
+        Vek = vek;
+        Zvuk = "Oink";
+        Plemeno = "Obecné";
+    }
+}
+
+public class Bjerkera : Zvire
+{
+    public Bjerkera(int vek)
+    {
+        Druh = "Prase";
+        Vek = vek;
+        Zvuk = "Oink";
+        Plemeno = "Bjerkera";
+    }
+}
+
+public class Koza : Zvire
+{
+    public Koza(int vek)
+    {
+        Druh = "Koza";
+        Vek = vek;
+        Zvuk = "Méé";
+        Plemeno = "Obecná";
+    }
+}
+
+public class SaanenskaKoza : Zvire
+{
+    public SaanenskaKoza(int vek)
+    {
+        Druh = "Koza";
+        Vek = vek;
+        Zvuk = "Méé";
+        Plemeno = "Saanenská";
+    }
+}
+
+public class Husa : Zvire
+{
+    public Husa(int vek)
+    {
+        Druh = "Husa";
+        Vek = vek;
+        Zvuk = "Hú";
+        Plemeno = "Obecná";
+    }
+}
+
+public class ToulouseHusa : Zvire
+{
+    public ToulouseHusa(int vek)
+    {
+        Druh = "Husa";
+        Vek = vek;
+        Zvuk = "Hú";
+        Plemeno = "Toulouse";
+    }
+}
+//factory metody
+public class VytvorZvire
 {
     public static Kocka VytvorKocku(int vek)
     {
